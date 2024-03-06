@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 200%;
+    font-style: normal;
+    margin-left: 12%;
+    margin-right: 18%;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+}
+
+body {
+    margin: 0;
+    margin-top: 2%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease; 
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-right: 45%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 130%;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+
+nav ul li a:hover{
+    color: gray;
+    text-decoration: none;
+    font-size: 130%;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+
+.seção {
+    background-color: white;
+    padding: 2%;
+}
+
+.seção h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%; 
+    font-weight: bold; 
+    color: #333; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.primeira h2 {
+    margin-top: 6%;
+}
+
+.apresentacao {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 80%;
+    margin: 3% auto;
+    color: #fff;
+    align-items: center;
+    display: flex;
+}
+
+.apresentacao h3{
+    font-size: 170%;
+    font-weight: bold;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.apresentacao p{
+    font-size: 130%;
+    line-height: 1.6;
+}
+
+.apresentacao img {
+    width: 18%;
+    border-radius: 200px; 
+    margin-right: 7%;
+    border: 1px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.apresentacao .texto{
+    color: #fff; 
+    text-align: center; 
+    flex-grow: 1;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 3%; 
+}
+
+.coluna, .coluna2, .coluna3 {
+    flex: 1; 
+    background-color: #333;
+    padding: 1%;
+    padding-left: 4%;
+    border-radius: 10px;
+    height: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.coluna2 {
+    margin-left: 20%; 
+}
+
+.coluna h3, .coluna2 h3, .coluna3 h3 {
+    color: #fff;
+    font-size: 160%;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.coluna ul, .coluna2 ul, .coluna3 ul  {
+    list-style: none;
+    padding: 0;
+}
+
+.coluna ul li, .coluna2 ul li, .coluna3 ul li {
+    color: #fff;
+    margin-bottom: 5%;
+    font-size: 110%;
+    padding-left: 2%;
+}
+
+.coluna3 {
+    margin-left: 40%;
+    height: 40%;
+}
+
+.projeto {
+    margin-top: 3%;
+    margin-left: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; 
+    background-color: #333;
+    padding: 1%;
+    padding-left: 3%;
+    border-radius: 10px;
+    height: 50%;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.projeto h3 {
+    font-size: 150%;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.projeto p {
+    font-size: 120%;
+    margin-left: 5%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 130%;
+}
+
+.projeto img {
+    width: 50%;
+    margin-left: 30%;
+}
+
+.contato {
+    margin-top: 3%;
+    margin-left: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; 
+    padding: 1%;
+    padding-left: 3%;
+    height: 50%;
+    width: 90%;
+}
+
+.coluna3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.coluna3 a:hover {
+    text-decoration: none;
+    color: inherit;
+     border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+input[type="text"], input[type="email"] {
+    width: 300%;
+    padding: 4%;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5%;
+    cursor: pointer;
+    resize: none;
+    margin-top: 7%;
+}
+
+.row{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-top: 5%;
+}
