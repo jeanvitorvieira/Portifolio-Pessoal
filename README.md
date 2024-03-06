@@ -12,3 +12,5 @@ Além disso, o site conta com a parte de "Contato", que tem um formulário que e
 Linkedin: https://www.linkedin.com/in/jean-vitor-vieira-505203197/
 
 E-mail: jeanvitorv0@gmail.com
+
+Instagram: https://www.instagram.com/_jeanv_/
