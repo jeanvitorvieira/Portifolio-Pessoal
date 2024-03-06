@@ -15,6 +15,7 @@ body {
     margin: 0;
     margin-top: 2%;
     font-family: Arial, sans-serif;
+    background-color: lightgray;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #333;
-    color: #fff;
+    color: lightgray;
     transition: background-color 0.3s ease; 
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
 }
@@ -44,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: lightgray;
     text-decoration: none;
     font-size: 130%;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
@@ -60,14 +61,14 @@ nav ul li a:hover{
 }
 
 .seção {
-    background-color: white;
+    background-color: lightgray;
     padding: 2%;
 }
 
 .seção h2{
     font-family: "Montserrat", sans-serif;
     font-size: 180%; 
-    font-weight: bold; 
+    font-weight:bold; 
     color: #333; 
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
     text-transform: uppercase;
@@ -86,15 +87,20 @@ nav ul li a:hover{
     text-align: center;
     max-width: 80%;
     margin: 3% auto;
-    color: #fff;
+    color: lightgray;
     align-items: center;
     display: flex;
+}
+
+.apresentacao:hover, .coluna:hover, .coluna2:hover, .coluna3:hover, .projeto:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
 .apresentacao h3{
     font-size: 170%;
     font-weight: bold;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat", sans-serif;
 }
 
 .apresentacao p{
@@ -111,7 +117,7 @@ nav ul li a:hover{
 }
 
 .apresentacao .texto{
-    color: #fff; 
+    color: lightgray; 
     text-align: center; 
     flex-grow: 1;
 }
@@ -139,9 +145,10 @@ nav ul li a:hover{
 }
 
 .coluna h3, .coluna2 h3, .coluna3 h3 {
-    color: #fff;
+    color: lightgray;
     font-size: 160%;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat", sans-serif;
 }
 
 .coluna ul, .coluna2 ul, .coluna3 ul  {
@@ -150,7 +157,7 @@ nav ul li a:hover{
 }
 
 .coluna ul li, .coluna2 ul li, .coluna3 ul li {
-    color: #fff;
+    color: lightgray;
     margin-bottom: 5%;
     font-size: 110%;
     padding-left: 2%;
@@ -179,14 +186,16 @@ nav ul li a:hover{
 
 .projeto h3 {
     font-size: 150%;
-    color: #fff;
+    color: lightgray;
     white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
 }
 
 .projeto p {
     font-size: 120%;
     margin-left: 5%;
-    color: #fff;
+    margin-right: 2%;
+    color: lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -211,9 +220,20 @@ nav ul li a:hover{
     width: 90%;
 }
 
-.coluna3 a {
+.coluna3 a, .projeto a {
     text-decoration: none;
     color: inherit;
+}
+
+.projeto a{
+    color: lightgray;
+    padding-left: 3%;
+    padding-right: 3%;
+    white-space: nowrap;
+}
+
+.projeto a p:hover{
+    text-decoration: underline;
 }
 
 .coluna3 a:hover {
@@ -227,29 +247,48 @@ label {
     display: block;
     margin-bottom: 4%;
     margin-top: 4%;
+    font-weight: bold;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"], input[type="textarea"] {
     width: 300%;
     padding: 4%;
     margin-bottom: 1%;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 3px;
+    background-color: #333;
+    color: #ccc;
+}
+
+input[type="textarea"]{
+    height: 15%;
+}
+
+input:focus{
+    background-color: #333;
+    color: #ccc;
+}
+
+input:-webkit-autofill {
+    background-color: #333;
+    color: #ccc;
 }
 
 input[type="submit"] {
     background-color: #333;
-    color: #fff;
+    color: lightgray;
     border: none;
     border-radius: 3px;
     padding: 5%;
     cursor: pointer;
     resize: none;
     margin-top: 7%;
+    font-weight: bold;
 }
 
-.row{
+.formulario{
     display: flex;
+    flex-wrap: wrap;
     margin-left: 4%;
     margin-right: 3%;
     margin-top: 5%;
