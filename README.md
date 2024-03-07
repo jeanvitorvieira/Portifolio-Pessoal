@@ -1,4 +1,4 @@
-# Portifolio-Pessoal
+# Portfólio Pessoal
 Este é um projeto feito em HTML5, CSS3 e JavaScript, onde consegui colocar um pouco sobre mim, minhas habilidades, conhecimentos e projetos expostos.
 
 Além disso, o site conta com a parte de "Contato", que tem um formulário que envia as mensagens para o meu e-mail.
